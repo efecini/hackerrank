@@ -2,4 +2,3 @@
 
 if __name__ == '__main__':
     [print(f'{i*i}') for i in range(0, int(input()))]
-sd
