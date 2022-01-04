@@ -1,4 +1,4 @@
-'''https://www.hackerrank.com/challenges/write-a-function/problem'''
+'''Problem Link: https://www.hackerrank.com/challenges/write-a-function/problem'''
 
 if __name__ == '__main__':
     a = int(input())
