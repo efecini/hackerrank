@@ -1,4 +1,4 @@
-'''Problem link: https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true'''
+'''Problem Link: https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true'''
 
 if __name__ == '__main__':
     n = int(input().strip())
