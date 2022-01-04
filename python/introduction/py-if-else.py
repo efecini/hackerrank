@@ -7,3 +7,4 @@ if __name__ == '__main__':
         print('Weird')
     else:
         print('Not Weird')
+        
