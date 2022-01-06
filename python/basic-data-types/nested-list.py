@@ -1,4 +1,5 @@
 '''Problem Link: https://www.hackerrank.com/challenges/nested-list/problem'''
+
 if __name__ == '__main__':
     lis = [[input(), float(input())] for i in range(int(input()))]
     second_best = sorted(list(set([score for name, score in lis])))[1]
