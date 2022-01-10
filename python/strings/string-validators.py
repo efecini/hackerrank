@@ -1,6 +1,9 @@
+'''Problem Link: https://www.hackerrank.com/challenges/string-validators
+'''
+
 if __name__ == '__main__':
     s = input()
-    #Use any. This is a good use case.
+
     print(f"{any(x.isalnum() for x in s)}")
     print(f"{any(x.isalpha() for x in s)}")
     print(f"{any(x.isdigit() for x in s)}")

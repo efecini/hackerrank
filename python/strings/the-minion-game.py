@@ -1,3 +1,6 @@
+'''Problem Link: https://www.hackerrank.com/challenges/the-minion-game
+'''
+
 def minion_game(string):
     s = {'name': 'Stuart', 'score':0}
     k = {'name': 'Kevin', 'score':0}

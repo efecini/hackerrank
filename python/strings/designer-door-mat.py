@@ -1,3 +1,6 @@
+'''Problem Link: https://www.hackerrank.com/challenges/designer-door-mat/
+'''
+
 n, m = map(int,input().split())
 for i in range(n//2):
     print(('.|.'*(2*i + 1)).center(m, '-'))

@@ -1,5 +1,6 @@
 '''Problem Link: https://www.hackerrank.com/challenges/python-string-formatting/problem
-'''    
+'''
+
 def print_formatted(number):
     pad = number.bit_length()
     for i in range(1, number+1):
