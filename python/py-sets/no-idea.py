@@ -1,11 +1,9 @@
-'''Problem Link: https://www.hackerrank.com/challenges/py-introduction-to-sets'''
+'''Problem Link: https://www.hackerrank.com/challenges/no-idea/problem'''
 
-def average(array):
-    s = set(array)
-    return sum(s)/len(s)
+n, m = input().split()
 
-if __name__ == '__main__':
-    n = int(input())
-    arr = list(map(int, input().split()))
-    result = average(arr)
-    print(result)
+sc_ar = input().split()
+
+A = set(input().split())
+B = set(input().split())
+print(sum([(i in A) - (i in B) for i in sc_ar]))
